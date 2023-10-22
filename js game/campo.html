@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+  
+<head>
+  <title>js game</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="mystylecampo.css"/>
+  <script src="campo.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+ <div class="scritte"><h2>Hockey Game</h2>
+<h3> Le regole sono semplici: cliccando sulle frecce si sposta in alto e in basso il portiere che deve riuscire a parare più dischi possibili, ogni disco parato è un punto e ogni goal subito è meno un punto.
+Si vince arrivando a 10 punti, e attenti a non scendere sotto lo 0!</h3><h3 class="avviso">purtroppo su dispositivo mobile e su schermo di dimensioni troppo piccole il gioco non è disponibile</h3><br><br>
+<input type="button" value="Play" id="bb"><br><br>
+<input type="button" value="↑" id="up"><br>
+<input type="button" value="↓" id="down"><br>
+</div>
+  <div class="punteggio"><h2 class="score">Score:</h2> <input type="text" id="score" value="0"></div>
+  <div class="centracampo">
+ <div id="campo" class="campo">
+ <h1 class="over" id="over">Game Over</h1>
+ <h1 class="win" id="win">You Win!!</h1>
+ <a id="palla"><img class="gioc" alt="" src="immagini/gioc.png"></a>
+ <a id="g1"><img class="por" alt="" src="immagini/por.png"></a>
+  <a id="rete"><img class="ret" alt="" src="immagini/rete.png"></a>
+ <a id="verapalla"></a>
+ </div></div>
+ 
+</body>
+</html>
